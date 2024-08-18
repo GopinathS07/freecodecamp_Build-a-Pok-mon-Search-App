@@ -1,0 +1,135 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --light: #ffffff;
+    --dark: #000000;
+    --dark-blue: #0a0a23;
+    --purple: #7f21ab;
+    --light-f5f6f7: #f5f6f7;
+    --grey-dfdfe2: #DFDFE2;
+
+    --blue-198EEE: #198EEE;
+    --blue-99c9ff: #99c9ff;
+    --gray-dfdfe2: #dfdfe2;
+    --grey-3B3B4F: #3B3B4F;
+    --gold: #4D3800;
+    --orange: #bb7712;
+    --yellow-feac32: #feac32;
+    --yellow-ffb73b: #FFB73B;
+}
+
+body {
+    background-color: var(--dark-blue);
+    padding: 1rem;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+img{
+    width: 100%;
+    margin: 10px 0px;
+}
+main {
+    max-width: 400px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.heading {
+    color: var(--grey-dfdfe2);
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+}
+
+.project-wrapper {
+    background-color: var(--light-f5f6f7);
+    padding: 1rem;
+    border-radius: 15px;
+    box-shadow: 10px 10px 0px 0px rgba(223, 220, 220, 0.75);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2.5rem;
+}
+
+form label {
+    font-size: 1.1rem;
+    margin-bottom: .5rem;
+}
+
+.input-and-btn {
+    display: flex;
+    gap: .5rem;
+}
+
+form input {
+    padding: .6rem;
+}
+
+form button {
+    background-color: var(--purple);
+    border: 1px solid var(--purple);
+    border-radius: 20px;
+    padding: .6rem 1rem;
+    color: var(--light-f5f6f7);
+}
+
+.name-and-id {
+    display: flex;
+    gap: .5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.weight-and-height {
+    display: flex;
+    gap: .5rem;
+    margin-bottom: 3rem;
+}
+
+table {
+    margin-top: 1.5rem;
+    width: 100%;
+    background-color: var(--purple);
+    border-collapse: collapse;
+    color: var(--light-f5f6f7);
+}
+
+table th, table td {
+    border: 5px solid white;
+    padding: .5rem;
+}
+
+table th {
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+footer {
+    padding: 1rem;
+}
+
+.attribution {
+    width: 100%;
+    text-align: center;
+    color: var(--grey-dfdfe2);
+}
+
+.attribution a {
+    color: var(--grey-dfdfe2);
+}
+
+.attribution a:hover {
+    color: var(--blue);
+}

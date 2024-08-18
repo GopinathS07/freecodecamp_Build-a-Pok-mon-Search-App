@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://static.vecteezy.com/system/resources/thumbnails/011/023/575/small/hand-drawn-panda-face-illustration-on-transparent-background-for-template-design-png.png" type="image/icon type">
+    <title>Pokémon Search App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main>
+        <img src="https://github.com/GopinathS07/freecodecamp_Build-a-Palindrome-Checker/blob/main/logo.jpg?raw=true" alt="GopinathS_logo">
+        <!-- Heading -->
+        <h1 class="heading">Pokémon Search App</h1>
+        <!-- Project wrapper -->
+        <div class="project-wrapper">
+            <!-- Search container -->
+            <form>
+                <label for="">Search for Pokémon Name or ID:</label>
+                <div class="input-and-btn">
+                    <input type="text" id="search-input" required/>
+                    <button id="search-button">Search</button>
+                </div>
+            </form>
+            <!-- Top container - Name, image -->
+            <div>
+                <!-- Name, ID -->
+                <div class="name-and-id">
+                    <p id="pokemon-name"></p>
+                    <p id="pokemon-id"></p>
+                </div>
+                <!-- Weight, height -->
+                <div class="weight-and-height">
+                    <div><p id="weight"><span>Weight: </span></p></div>
+                    <div><p id="height"><span>Height: </span></p></div>
+                </div>
+                <!-- Types -->
+                <div id="types"></div>
+            </div>
+            <!-- Bottom container - Statistics -->
+            <table>
+                <tr>
+                    <th>Base</th>
+                    <th>Stats</th>
+                </tr>
+                <tr>
+                    <td>HP:</td>
+                    <td id="hp"></td>
+                </tr>
+                <tr>
+                    <td>Attack:</td>
+                    <td id="attack"></td>
+                </tr>
+                <tr>
+                    <td>Defence:</td>
+                    <td id="defense"></td>
+                </tr>
+                <tr>
+                    <td>Sp. Attack:</td>
+                    <td id="special-attack"></td>
+                </tr>
+                <tr>
+                    <td>Sp. Defence:</td>
+                    <td id="special-defense"></td>
+                </tr>
+                <tr>
+                    <td>Speed:</td>
+                    <td id="speed"></td>
+                </tr>
+            </table>
+        </div>
+    </main>
+    <footer>
+        <!-- Attribution -->
+         <small class="attribution">Design By: <a href="https://github.com/GopinathS07" target="_blank">Gopinath_S</a></small>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
